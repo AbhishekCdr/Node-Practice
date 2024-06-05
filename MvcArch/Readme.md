@@ -1,7 +1,7 @@
 The MVC architechure pattern turns complex application development into a much more managable process.
 
 MVC =>
-Model: The backend that contains all the data logic
+MODEL: The backend that contains all the data logic
 
 -> Responsibilities:
 
@@ -9,7 +9,7 @@ Model: The backend that contains all the data logic
 > Apply business rules and logic.
 > Notify the View of any data changes so that the display can be updated.
 
-View: The fontend or graphical user interface (GUI)
+VIEW: The fontend or graphical user interface (GUI)
 
 -> Responsibilities:
 
@@ -17,7 +17,7 @@ View: The fontend or graphical user interface (GUI)
 > Present data in a specific format or layout.
 > Send user commands to the Controller (e.g., form submissions, button clicks).
 
-Controller: Th ebrain of the application that controls how data is displayed.
+CONTROLLER: Th ebrain of the application that controls how data is displayed.
 
 ->Responsibilities:
 
@@ -26,7 +26,7 @@ Controller: Th ebrain of the application that controls how data is displayed.
 > Update the Model based on user actions.
 > Determine which View should be displayed based on the Model's state.
 
-->Benefits of MVC
+=>BENEFITS OF MVC
 
 > Separation of Concerns: Each component has a distinct responsibility, making the application easier to manage and scale.
 > Reusability: Components can be reused across different parts of the application or even in different projects.
